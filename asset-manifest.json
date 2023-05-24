@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/tic-tac-game/static/css/main.4af5f56e.css",
+    "main.js": "/tic-tac-game/static/js/main.097e2014.js",
+    "static/js/787.18c6e707.chunk.js": "/tic-tac-game/static/js/787.18c6e707.chunk.js",
+    "index.html": "/tic-tac-game/index.html",
+    "main.4af5f56e.css.map": "/tic-tac-game/static/css/main.4af5f56e.css.map",
+    "main.097e2014.js.map": "/tic-tac-game/static/js/main.097e2014.js.map",
+    "787.18c6e707.chunk.js.map": "/tic-tac-game/static/js/787.18c6e707.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4af5f56e.css",
+    "static/js/main.097e2014.js"
+  ]
+}
