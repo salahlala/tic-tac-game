@@ -1,0 +1,80 @@
+
+.win {
+  background-color:#1a2a33 ;
+  text-align: center;
+  padding: 20px;
+  height: 250px;
+  display: grid;
+  place-items: center;
+  animation: slide-down .7s 1 ease-out forwards;
+  transform: scale(0);
+  transition: .3s;
+}
+
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: scale(0);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.win p {
+  color :#a8bfc9 ;
+  font-weight: bold;
+}
+
+.msg {
+  font-weight: bold;
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:#a8bfc9 ;
+  text-transform: uppercase;
+  gap: 10px;
+}
+
+
+.win .btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.win button {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  color: #1A2A33;
+  padding: 12px 13px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-size: 21px;
+  transition: .4s;
+}
+
+.win button.cancel {
+  background-color: #a8bfc9 ;
+  box-shadow: 0 4px #a8bfc96e;
+
+}
+.win button:not(.cancel) {
+  background-color: #F2B137;
+    box-shadow: rgb(204, 139, 19) 0px 4px;
+}
+
+.win button.cancel:active {
+  box-shadow: 0 2px #a8bfc96e;
+  transform: translateY(-2px);
+}
+.win button:not(.cancel):active {
+  box-shadow: rgb(204, 139, 19) 0px 2px;
+  transform: translateY(-2px);
+}

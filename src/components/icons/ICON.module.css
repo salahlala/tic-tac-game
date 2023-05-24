@@ -1,0 +1,33 @@
+.mark {
+  width: 40px;
+  height: 40px;
+}
+.size {
+  width: 70px;
+  height: 70px;
+}
+.icon-trans {
+  animation: scalable .3s 1 linear;
+  transform: scale(1);
+
+}
+.make-hove {
+  animation: splash .5s 1 ease;
+}
+@keyframes splash {
+  0% {
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+
+  }
+}
+@keyframes scalable {
+  0% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
